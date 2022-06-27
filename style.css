@@ -1,0 +1,103 @@
+body{
+  margin: 75px auto;
+  background-image: url(../imagens/fundo2.jpg);
+  background-size: cover;
+}
+.container{
+  max-width: 280px;
+  
+  background-color: rgba(17, 17, 17, 0.8);
+  position: flex;
+  border-radius: 10px;  
+  margin: auto;
+  padding: 40px;
+  display: flexbox;
+  font-t
+  
+}
+h1::after{
+  content:"|";
+  animation: blink ;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes  blink{
+    50%{
+      opacity: 0;
+    }
+    
+      100%
+      opacity: 1;
+    
+  }
+
+
+  
+#mensagem{
+  color: rgb(156, 154, 154);
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+}
+h1{
+ color:rgb(228, 19, 106);
+ font-size: 30px;
+ font-family: 'Roboto';
+
+}
+h2{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+p{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+input{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(48, 47, 47);
+  margin-bottom: 10px;
+  border: none;
+}
+button{
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  background-color:rgb(228, 19, 106);
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;font-weight: bolder;
+  border: none;
+  
+}
+
+@media screen and (max-width: 400px){
+  .container{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  p{
+    font-size: 14px;
+  }
+  input{
+    height: 30px;
+  }
+  button{
+    height: 35px;
+  }
+}
